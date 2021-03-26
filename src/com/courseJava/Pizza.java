@@ -16,7 +16,6 @@ public class Pizza {
                     "------------- \nWait 5 seconds...\n-------------");
             for(int i = 1; i < 6; i++){
                 TimeUnit.SECONDS.sleep(1);
-//                Thread.sleep(1000);
                 System.out.println(i + " seconds");
             }
             return "------------- \npizza is ready!";
