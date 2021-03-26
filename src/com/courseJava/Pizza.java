@@ -14,7 +14,7 @@ public class Pizza {
         if (answer.equals(answerTrueEn) || answer.equals(answerTrueEn.toUpperCase()) || answer.equals(answerTrueEn.toLowerCase()) || answer.equals(answerTrueRu) || answer.equals(answerTrueRu.toUpperCase()) || answer.equals(answerTrueRu.toLowerCase())) {
             System.out.println("\nMaking pizza!" + "\n" +
                     "------------- \nWait 5 seconds...\n-------------");
-            for(int i = 1; i < 6; i++){
+            for(int i = 1; i <= 5; i++){
                 TimeUnit.SECONDS.sleep(1);
                 System.out.println(i + " seconds");
             }
